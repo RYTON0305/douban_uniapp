@@ -1,0 +1,47 @@
+{
+  "pages": [
+    "pages/Home/Home",
+    "pages/RankingList/RankingList",
+    "pages/Mine/Mine",
+    "pages/Search/Search",
+    "pages/More/More",
+    "pages/Detail/Detail",
+    "pages/Login/Login",
+    "pages/LoginTest/LoginTest"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTextStyle": "white",
+    "navigationBarTitleText": "豆瓣评分",
+    "navigationBarBackgroundColor": "#42BD56",
+    "backgroundColor": "#FFFFFF"
+  },
+  "tabBar": {
+    "color": "#acacac",
+    "selectedColor": "#42BD56",
+    "borderStyle": "black",
+    "backgroundColor": "#ffffff",
+    "list": [
+      {
+        "pagePath": "pages/Home/Home",
+        "text": "首页",
+        "iconPath": "./static/img/home.png",
+        "selectedIconPath": "./static/img/home_select.png"
+      },
+      {
+        "pagePath": "pages/RankingList/RankingList",
+        "text": "榜单",
+        "iconPath": "./static/img/top.png",
+        "selectedIconPath": "./static/img/top_select.png"
+      },
+      {
+        "pagePath": "pages/Mine/Mine",
+        "text": "我的",
+        "iconPath": "./static/img/mine.png",
+        "selectedIconPath": "./static/img/mine_select.png"
+      }
+    ]
+  },
+  "usingComponents": {},
+  "sitemapLocation": "sitemap77.json"
+}

@@ -1,0 +1,75 @@
+{
+	"pages": [{
+			"path": "pages/Home/Home",
+			"style": {
+				"navigationBarTitleText": "首页"
+			}
+		},
+		{
+			"path": "pages/RankingList/RankingList",
+			"style": {
+				"navigationBarTitleText": "榜单"
+			}
+		},
+		{
+			"path": "pages/Mine/Mine",
+			"style": {
+				"navigationBarTitleText": "书影音档案",
+				"navigationBarBackgroundColor": "#ffffff",
+				"navigationBarTextStyle": "black"
+			}
+		}, {
+			"path": "pages/Search/Search",
+			"style": {}
+
+		}, {
+			"path": "pages/More/More",
+			"style": {
+				"navigationBarBackgroundColor": "#ffffff",
+				"navigationBarTextStyle": "black"
+			}
+		}, {
+			"path": "pages/Detail/Detail",
+			"style": {}
+		}, {
+			"path": "pages/Login/Login",
+			"style": {
+				"navigationBarTitleText": "登录",
+				"navigationBarBackgroundColor": "#ffffff",
+				"navigationBarTextStyle": "black"
+			}
+		}
+	    ,{
+            "path" : "pages/LoginTest/LoginTest",
+            "style" : {}
+        }
+    ],
+	"globalStyle": {
+		"navigationBarTextStyle": "white",
+		"navigationBarTitleText": "豆瓣评分",
+		"navigationBarBackgroundColor": "#42BD56",
+		"backgroundColor": "#FFFFFF"
+	},
+	"tabBar": {
+		"color": "#acacac",
+		"selectedColor": "#42BD56",
+		"borderStyle": "black",
+		"backgroundColor": "#ffffff",
+		"list": [{
+			"pagePath": "pages/Home/Home",
+			"text": "首页",
+			"iconPath": "./static/img/home.png",
+			"selectedIconPath": "./static/img/home_select.png"
+		}, {
+			"pagePath": "pages/RankingList/RankingList",
+			"text": "榜单",
+			"iconPath": "./static/img/top.png",
+			"selectedIconPath": "./static/img/top_select.png"
+		}, {
+			"pagePath": "pages/Mine/Mine",
+			"text": "我的",
+			"iconPath": "./static/img/mine.png",
+			"selectedIconPath": "./static/img/mine_select.png"
+		}]
+	}
+}

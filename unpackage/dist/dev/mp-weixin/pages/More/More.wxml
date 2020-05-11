@@ -1,0 +1,1 @@
+<view class="more-container"><block wx:for="{{list}}" wx:for-item="item" wx:for-index="__i0__" wx:key="id"><movie-item class="movie-item" vue-id="{{'51fe80c0-1-'+__i0__}}" item-from="more" movie="{{item.subject?item.subject:item}}" bind:__l="__l"></movie-item></block></view>

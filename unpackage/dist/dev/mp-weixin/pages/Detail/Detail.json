@@ -1,0 +1,6 @@
+{
+  "usingComponents": {
+    "uni-rate": "/components/uni-rate/uni-rate",
+    "movie-item": "/components/MovieItem"
+  }
+}
